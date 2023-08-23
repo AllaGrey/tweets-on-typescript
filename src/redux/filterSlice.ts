@@ -15,8 +15,9 @@ export const filterSlice = createSlice({
         // isFollowing: '',
     },
     reducers: {
-    filterUsers: (state: IFilter, action: PayloadAction<IFilter>) => {
-        return (state = action.payload) as IFilter
+        filterUsers: (state: IFilter, action: PayloadAction<IFilter>) => {
+            state = action.payload
+        return state as IFilter
         }
     },
 })
