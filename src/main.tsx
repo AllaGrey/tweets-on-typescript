@@ -12,7 +12,7 @@ if (rootElement) {
   root.render(
     <React.StrictMode>
         <Provider store={store}>
-          <BrowserRouter basename="/goit-typescript-hw-01">
+          <BrowserRouter basename="/tweets-on-typescript">
             <App />
           </BrowserRouter>
       </Provider>
